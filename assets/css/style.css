@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.leader {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+h1 {
+  float: left;
+  color: white;
+  width: 25%;
+  background-color: #4aaaa5;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+nav {
+  float: right;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container {
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  border-top: 8px solid #4aaaa5;
+}
