@@ -5,9 +5,11 @@
 body {
   position: relative;
   width: 100%;
+  background-color: #4aaaa5;
   background-image: url("../images/hixs_pattern_evolution_2X.png");
   background-repeat: repeat;
   margin: 0px;
+  color: #777777;
 }
 
 .leader {
@@ -17,6 +19,7 @@ body {
   background-color: #ffffff;
   margin: auto;
   margin-bottom: 20px;
+  border-color: #dddddd;
 }
 
 h1.title {
@@ -33,12 +36,15 @@ h1.title {
 h2 {
   position: relative;
   color: #4aaaa5;
-  left: 10px;
+  font-weight: 600;
+  left: 15px;
   top: 5px;
 }
 
 nav {
+  position: relative;
   float: right;
+  height: 68px;
 }
 
 .button {
@@ -71,7 +77,6 @@ nav {
   background-color: #ffffff;
   border-color: #dddddd;
   margin: auto;
-  border-bottom: 15px;
 }
 
 .topborder {
@@ -94,8 +99,16 @@ p.pindent {
   width: 90%
 }
 
-.submitindent {
-  margin-left: 15px;
+input[type=submit] {
+  border: none;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 15px;
 }
 
 footer {
